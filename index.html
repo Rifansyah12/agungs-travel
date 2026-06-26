@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agung's Travel & Tour</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <img src="logo.jpeg" alt="Agung's Travel & Tour logo" class="brand-logo" />
+        <div>
+          <h1>Agung's Travel & Tour</h1>
+          <p>Service Penyewaan Mobil & Travel</p>
+        </div>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Beranda</a>
+        <a href="#services">Layanan</a>
+        <a href="#fleet">Armada</a>
+        <a href="#about">Tentang</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div>
+          <span class="eyebrow">Selamat Datang</span>
+          <h2>Perjalanan nyaman dengan armada terbaik.</h2>
+          <p>Agung's Travel & Tour menyediakan layanan rental mobil dan travel profesional untuk perjalanan bisnis, liburan, atau antar jemput bandara.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Pesan Sekarang</a>
+            <a class="button button-secondary" href="#services">Lihat Layanan</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/car-1.svg" alt="Ilustrasi mobil Agung's Travel & Tour" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container section-header">
+        <span class="eyebrow">Layanan Kami</span>
+        <h2>Jasa yang kami tawarkan</h2>
+      </div>
+      <div class="container cards-grid">
+        <article class="card">
+          <h3>Rental Mobil</h3>
+          <p>Unit mobil terawat, sopir berpengalaman, dan harga kompetitif untuk perjalanan pribadi maupun kantor.</p>
+        </article>
+        <article class="card">
+          <h3>Travel Antar Kota</h3>
+          <p>Rute travel antar kota dengan jadwal teratur dan kenyamanan sepanjang perjalanan.</p>
+        </article>
+        <article class="card">
+          <h3>Pick up / Drop off</h3>
+          <p>Layanan antar jemput bandara, stasiun, dan pelabuhan untuk kenyamanan perjalanan Anda.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-highlight" id="fleet">
+      <div class="container section-header">
+        <span class="eyebrow">Armada Unggulan</span>
+        <h2>Kendaraan siaga untuk setiap kebutuhan</h2>
+      </div>
+      <div class="container fleet-grid">
+        <div class="fleet-card">
+          <img src="images/car-1.svg" alt="MPV Xenia" />
+          <h3>MPV / Xenia</h3>
+          <p>Ruang luas untuk keluarga dan kelompok kecil.</p>
+        </div>
+        <div class="fleet-card">
+          <img src="images/car-2.svg" alt="Avanza / Innova" />
+          <h3>Avanza / Innova</h3>
+          <p>Nyaman untuk perjalanan dinas dan antar jemput.</p>
+        </div>
+        <div class="fleet-card">
+          <img src="images/car-3.svg" alt="Hiace / ELF" />
+          <h3>Hiace / ELF</h3>
+          <p>Optimal untuk travel antar kota dan rombongan besar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">Tentang Kami</span>
+          <h2>Agung's Travel & Tour</h2>
+          <p>Kami adalah jasa transportasi yang mengutamakan keamanan, kenyamanan, dan ketepatan waktu. Setiap perjalanan dirancang untuk memberi rasa percaya dan pelayanan terbaik.</p>
+          <ul>
+            <li>Armada terawat dan bersih</li>
+            <li>Sopir berpengalaman</li>
+            <li>Harga transparan dan fleksibel</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>Keunggulan kami</h3>
+          <p>Fokus pada perjalanan yang aman, nyaman, dan mudah dipesan lewat kontak langsung. Kami siap membantu Anda kapan saja.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container section-header">
+        <span class="eyebrow">Kontak</span>
+        <h2>Booking & informasi</h2>
+      </div>
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <h3>Hubungi Kami</h3>
+          <p>Telepon atau WhatsApp untuk tetap terhubung dan dapatkan penawaran terbaik.</p>
+          <ul>
+            <li><strong>Telepon:</strong> 0812-3456-7890</li>
+            <li><strong>Email:</strong> info@agungstravel.com</li>
+            <li><strong>Alamat:</strong> Jl. Contoh No. 123, Kota Anda</li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="name">Nama</label>
+          <input type="text" id="name" name="name" placeholder="Nama Anda" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="email@contoh.com" required />
+
+          <label for="message">Pesan</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tuliskan kebutuhan perjalanan Anda" required></textarea>
+
+          <button type="submit" class="button button-primary">Kirim Pesan</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Agung's Travel & Tour. Semua hak dilindungi.</p>
+      <p>Website company profile sederhana dengan HTML, CSS, dan JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
