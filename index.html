@@ -1,458 +1,882 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Agung's Travel & Tour — Rental Mobil & Travel Profesional</title>
-  <meta name="description" content="Agung's Travel & Tour menyediakan layanan rental mobil dan travel profesional. Armada terawat, sopir berpengalaman, harga terjangkau." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Agung's Travel & Tour | Rental Mobil, HiAce, ELF & Bus Profesional
+    </title>
+    <meta
+      name="description"
+      content="Agung's Travel & Tour menyediakan rental mobil harian, HiAce, ELF, medium bus, big bus, travel antar kota, antar jemput bandara dan stasiun. Armada terawat, sopir profesional, booking via WhatsApp." />
+    <meta
+      name="keywords"
+      content="rental mobil, sewa mobil, travel, sewa hiace, sewa elf, sewa bus, medium bus, big bus, antar jemput bandara, antar jemput stasiun, Agung Travel" />
+    <meta name="author" content="Agung's Travel & Tour" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#070b14" />
+    <link
+      rel="canonical"
+      href="https://agungs-travel-p4ugqczvc-rifansyah12s-projects.vercel.app/" />
+    <link rel="icon" href="logo.jpeg" type="image/jpeg" />
+    <link rel="apple-touch-icon" href="logo.jpeg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Agung's Travel & Tour" />
+    <meta
+      property="og:title"
+      content="Agung's Travel & Tour | Rental Mobil, HiAce, ELF & Bus Profesional" />
+    <meta
+      property="og:description"
+      content="Rental mobil harian, HiAce, ELF, medium bus, big bus, travel antar kota, antar jemput bandara dan stasiun. Booking mudah via WhatsApp." />
+    <meta
+      property="og:url"
+      content="https://agungs-travel-p4ugqczvc-rifansyah12s-projects.vercel.app/" />
+    <meta
+      property="og:image"
+      content="https://agungs-travel-p4ugqczvc-rifansyah12s-projects.vercel.app/images/bg-hero.jpeg" />
+    <meta property="og:image:alt" content="Armada Agung's Travel & Tour" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Agung's Travel & Tour | Rental Mobil & Travel Profesional" />
+    <meta
+      name="twitter:description"
+      content="Sewa mobil, HiAce, ELF, medium bus, big bus, travel antar kota, antar jemput bandara dan stasiun. Booking via WhatsApp." />
+    <meta
+      name="twitter:image"
+      content="https://agungs-travel-p4ugqczvc-rifansyah12s-projects.vercel.app/images/bg-hero.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "Agung's Travel & Tour",
+        "url": "https://agungs-travel-p4ugqczvc-rifansyah12s-projects.vercel.app/",
+        "logo": "https://agungs-travel-p4ugqczvc-rifansyah12s-projects.vercel.app/logo.jpeg",
+        "image": "https://agungs-travel-p4ugqczvc-rifansyah12s-projects.vercel.app/images/bg-hero.jpeg",
+        "description": "Agung's Travel & Tour menyediakan rental mobil harian, HiAce, ELF, medium bus, big bus, travel antar kota, antar jemput bandara, antar jemput stasiun, dan paket wisata.",
+        "telephone": "+6282115224743",
+        "priceRange": "Rp350.000 - Rp3.500.000",
+        "areaServed": "Indonesia",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+          }
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+6282115224743",
+            "contactType": "customer service",
+            "availableLanguage": ["Indonesian"]
+          }
+        ],
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Rental Mobil Harian" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Travel Antar Kota" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Antar Jemput Bandara"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Antar Jemput Stasiun"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sewa HiAce, ELF, Medium Bus, dan Big Bus"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/6282115224743"
+      class="wa-float"
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+      </svg>
+      <span>Chat WA</span>
+    </a>
 
-  <!-- Floating WhatsApp Button -->
-  <a href="https://wa.me/6282115224743" class="wa-float" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
-    <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-    </svg>
-    <span>Chat WA</span>
-  </a>
-
-  <!-- HEADER -->
-  <header class="site-header" id="header">
-    <div class="container header-inner">
-      <a href="#home" class="brand">
-        <img src="logo.jpeg" alt="Agung's Travel & Tour" class="brand-logo" />
-        <div class="brand-text">
-          <span class="brand-name">Agung's Travel</span>
-          <span class="brand-sub">& Tour</span>
-        </div>
-      </a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="main-nav" id="mainNav">
-        <a href="#home" class="nav-link">Beranda</a>
-        <a href="#services" class="nav-link">Layanan</a>
-        <a href="#fleet" class="nav-link">Armada</a>
-        <a href="#about" class="nav-link">Tentang</a>
-        <a href="#contact" class="nav-link">Kontak</a>
-        <a href="https://wa.me/6281234567890" class="nav-cta" target="_blank">Pesan Sekarang</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-
-    <!-- HERO -->
-    <section class="hero" id="home">
-      <div class="hero-bg">
-        <img src="images/hero-car.jpg" alt="Armada Agung's Travel & Tour" class="hero-bg-img" />
-        <div class="hero-overlay"></div>
+    <!-- HEADER -->
+    <header class="site-header" id="header">
+      <div class="container header-inner">
+        <a href="#home" class="brand">
+          <img src="logo.jpeg" alt="Agung's Travel & Tour" class="brand-logo" />
+          <div class="brand-text">
+            <span class="brand-name">Agung's Travel</span>
+            <span class="brand-sub">& Tour</span>
+          </div>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="main-nav" id="mainNav">
+          <a href="#home" class="nav-link">Beranda</a>
+          <a href="#services" class="nav-link">Layanan</a>
+          <a href="#fleet" class="nav-link">Armada</a>
+          <a href="#about" class="nav-link">Tentang</a>
+          <a href="#contact" class="nav-link">Kontak</a>
+          <a href="https://wa.me/6282115224743" class="nav-cta" target="_blank"
+            >Pesan Sekarang</a
+          >
+        </nav>
       </div>
-      <div class="container hero-content">
-        <div class="hero-text reveal">
-          <span class="eyebrow">Selamat Datang di</span>
-          <h1>Agung's<br><em>Travel & Tour</em></h1>
-          <p>Layanan rental mobil dan travel profesional dengan armada terawat, sopir berpengalaman, dan harga transparan untuk setiap perjalanan Anda.</p>
-          <div class="hero-actions">
-            <a href="https://wa.me/6281234567890" class="btn btn-gold" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-              </svg>
-              Pesan via WhatsApp
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="hero-bg">
+          <img
+            src="images/bg-hero.jpeg"
+            alt="Armada Agung's Travel & Tour"
+            class="hero-bg-img" />
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+          <div class="hero-text reveal">
+            <span class="eyebrow">Selamat Datang di</span>
+            <h1>Agung's<br /><em>Travel & Tour</em></h1>
+            <p>
+              Layanan rental mobil dan travel profesional dengan armada terawat,
+              sopir berpengalaman, dan harga transparan untuk setiap perjalanan
+              Anda.
+            </p>
+            <div class="hero-actions">
+              <a
+                href="https://wa.me/6282115224743"
+                class="btn btn-gold"
+                target="_blank"
+                rel="noopener">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="20"
+                  height="20">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                </svg>
+                Pesan via WhatsApp
+              </a>
+              <a href="#fleet" class="btn btn-outline">Lihat Armada</a>
+            </div>
+          </div>
+          <div class="hero-stats reveal">
+            <div class="hstat-card">
+              <span class="hstat-num" data-count="10">0</span
+              ><span class="hstat-plus">+</span>
+              <span class="hstat-label">Tahun Pengalaman</span>
+            </div>
+            <div class="hstat-card">
+              <span class="hstat-num" data-count="50">0</span
+              ><span class="hstat-plus">+</span>
+              <span class="hstat-label">Unit Armada</span>
+            </div>
+            <div class="hstat-card">
+              <span class="hstat-num" data-count="5000">0</span
+              ><span class="hstat-plus">+</span>
+              <span class="hstat-label">Pelanggan Puas</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll">
+          <div class="scroll-dot"></div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow">Layanan Kami</span>
+            <h2>Solusi transportasi untuk<br />setiap kebutuhan Anda</h2>
+          </div>
+          <div class="services-grid">
+            <a
+              class="service-card reveal"
+              href="detail-layanan.html?layanan=rental-harian">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+                  <path
+                    d="M8 32V22l4-12h24l4 12v10"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <circle
+                    cx="14"
+                    cy="34"
+                    r="4"
+                    stroke="currentColor"
+                    stroke-width="2.5" />
+                  <circle
+                    cx="34"
+                    cy="34"
+                    r="4"
+                    stroke="currentColor"
+                    stroke-width="2.5" />
+                  <path
+                    d="M18 34h12M8 26h32"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round" />
+                </svg>
+              </div>
+              <h3>Rental Harian</h3>
+              <p>
+                Sewa mobil dengan atau tanpa sopir untuk keperluan pribadi,
+                kantor, atau wisata. Fleksibel sesuai kebutuhan.
+              </p>
+              <span class="service-link">Lihat Detail →</span>
             </a>
-            <a href="#fleet" class="btn btn-outline">Lihat Armada</a>
-          </div>
-        </div>
-        <div class="hero-stats reveal">
-          <div class="hstat-card">
-            <span class="hstat-num" data-count="10">0</span><span class="hstat-plus">+</span>
-            <span class="hstat-label">Tahun Pengalaman</span>
-          </div>
-          <div class="hstat-card">
-            <span class="hstat-num" data-count="50">0</span><span class="hstat-plus">+</span>
-            <span class="hstat-label">Unit Armada</span>
-          </div>
-          <div class="hstat-card">
-            <span class="hstat-num" data-count="5000">0</span><span class="hstat-plus">+</span>
-            <span class="hstat-label">Pelanggan Puas</span>
-          </div>
-        </div>
-      </div>
-      <div class="hero-scroll">
-        <div class="scroll-dot"></div>
-      </div>
-    </section>
 
-    <!-- SERVICES -->
-    <section class="section" id="services">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">Layanan Kami</span>
-          <h2>Solusi transportasi untuk<br>setiap kebutuhan Anda</h2>
-        </div>
-        <div class="services-grid">
+            <a
+              class="service-card reveal"
+              href="detail-layanan.html?layanan=travel-antar-kota">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+                  <path
+                    d="M6 24h36M6 24l8-8M6 24l8 8"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <circle
+                    cx="38"
+                    cy="14"
+                    r="6"
+                    stroke="currentColor"
+                    stroke-width="2.5" />
+                  <circle
+                    cx="10"
+                    cy="34"
+                    r="6"
+                    stroke="currentColor"
+                    stroke-width="2.5" />
+                </svg>
+              </div>
+              <h3>Travel Antar Kota</h3>
+              <p>
+                Rute travel antar kota dengan jadwal teratur, kenyamanan
+                maksimal, dan harga yang sangat terjangkau.
+              </p>
+              <span class="service-link">Lihat Detail →</span>
+            </a>
 
-          <article class="service-card reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
-                <path d="M8 32V22l4-12h24l4 12v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="14" cy="34" r="4" stroke="currentColor" stroke-width="2.5"/>
-                <circle cx="34" cy="34" r="4" stroke="currentColor" stroke-width="2.5"/>
-                <path d="M18 34h12M8 26h32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              </svg>
-            </div>
-            <h3>Rental Harian</h3>
-            <p>Sewa mobil dengan atau tanpa sopir untuk keperluan pribadi, kantor, atau wisata. Fleksibel sesuai kebutuhan.</p>
-            <a href="#contact" class="service-link">Pesan Sekarang →</a>
-          </article>
+            <a
+              class="service-card reveal"
+              href="detail-layanan.html?layanan=antar-jemput-bandara">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+                  <path
+                    d="M24 6L38 20H30V36H18V20H10L24 6Z"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M10 42H38"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round" />
+                </svg>
+              </div>
+              <h3>Antar Jemput Bandara</h3>
+              <p>
+                Layanan pick up & drop off bandara tepat waktu, nyaman, dan aman
+                untuk semua jadwal penerbangan.
+              </p>
+              <span class="service-link">Lihat Detail →</span>
+            </a>
 
-          <article class="service-card reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
-                <path d="M6 24h36M6 24l8-8M6 24l8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="38" cy="14" r="6" stroke="currentColor" stroke-width="2.5"/>
-                <circle cx="10" cy="34" r="6" stroke="currentColor" stroke-width="2.5"/>
-              </svg>
-            </div>
-            <h3>Travel Antar Kota</h3>
-            <p>Rute travel antar kota dengan jadwal teratur, kenyamanan maksimal, dan harga yang sangat terjangkau.</p>
-            <a href="#contact" class="service-link">Pesan Sekarang →</a>
-          </article>
+            <a
+              class="service-card reveal"
+              href="detail-layanan.html?layanan=antar-jemput-stasiun">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+                  <path
+                    d="M14 8H34C38 8 40 10 40 14V28C40 32 38 34 34 34H14C10 34 8 32 8 28V14C8 10 10 8 14 8Z"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M14 16H34M16 40L22 34M32 40L26 34"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round" />
+                  <circle cx="16" cy="27" r="2" fill="currentColor" />
+                  <circle cx="32" cy="27" r="2" fill="currentColor" />
+                </svg>
+              </div>
+              <h3>Antar Jemput Stasiun</h3>
+              <p>
+                Layanan antar jemput stasiun untuk perjalanan kereta,
+                penjemputan keluarga, tamu, atau perjalanan dinas.
+              </p>
+              <span class="service-link">Lihat Detail →</span>
+            </a>
 
-          <article class="service-card reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
-                <path d="M24 6L38 20H30V36H18V20H10L24 6Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M10 42H38" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              </svg>
-            </div>
-            <h3>Antar Jemput Bandara</h3>
-            <p>Layanan pick up & drop off bandara, stasiun, dan pelabuhan tepat waktu dan nyaman setiap saat.</p>
-            <a href="#contact" class="service-link">Pesan Sekarang →</a>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
-                <path d="M12 36C12 28 8 22 8 16C8 10 15 6 24 6C33 6 40 10 40 16C40 22 36 28 36 36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-                <path d="M16 42H32M20 36H28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-                <circle cx="24" cy="18" r="4" stroke="currentColor" stroke-width="2.5"/>
-              </svg>
-            </div>
-            <h3>Paket Wisata</h3>
-            <p>Nikmati paket wisata lokal maupun regional dengan armada lengkap dan pemandu berpengalaman.</p>
-            <a href="#contact" class="service-link">Pesan Sekarang →</a>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- FLEET -->
-    <section class="section section-dark" id="fleet">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">Armada Unggulan</span>
-          <h2>Kendaraan terbaik untuk<br>setiap perjalanan</h2>
-        </div>
-        <div class="fleet-grid">
-
-          <div class="fleet-card reveal">
-            <div class="fleet-img-wrap">
-              <img src="images/avanza.jpg" alt="Toyota Avanza / Xenia" loading="lazy" />
-              <span class="fleet-badge badge-gold">Paling Populer</span>
-            </div>
-            <div class="fleet-info">
-              <div class="fleet-top">
-                <h3>Toyota Avanza / Xenia</h3>
-                <span class="fleet-seat">7 Kursi</span>
+            <a
+              class="service-card reveal"
+              href="detail-layanan.html?layanan=paket-wisata">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" fill="none" width="34" height="34">
+                  <path
+                    d="M12 36C12 28 8 22 8 16C8 10 15 6 24 6C33 6 40 10 40 16C40 22 36 28 36 36"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round" />
+                  <path
+                    d="M16 42H32M20 36H28"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round" />
+                  <circle
+                    cx="24"
+                    cy="18"
+                    r="4"
+                    stroke="currentColor"
+                    stroke-width="2.5" />
+                </svg>
               </div>
-              <p>Nyaman untuk keluarga dan perjalanan dinas. Irit bahan bakar dengan kabin yang luas.</p>
-              <div class="fleet-specs">
-                <span><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M8 5v3l2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg> AC Dingin</span>
-                <span><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><rect x="2" y="3" width="12" height="10" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M5 7h6M5 10h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> Audio System</span>
-                <span><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 2L2 5v4c0 3 2.5 5 6 6 3.5-1 6-3 6-6V5L8 2Z" stroke="currentColor" stroke-width="1.5" fill="none"/></svg> Asuransi</span>
-              </div>
-              <a href="https://wa.me/6281234567890" class="btn btn-gold btn-sm" target="_blank">Pesan Unit Ini</a>
-            </div>
-          </div>
-
-          <div class="fleet-card reveal">
-            <div class="fleet-img-wrap">
-              <img src="images/innova.jpg" alt="Toyota Innova" loading="lazy" />
-              <span class="fleet-badge badge-blue">Premium</span>
-            </div>
-            <div class="fleet-info">
-              <div class="fleet-top">
-                <h3>Toyota Innova</h3>
-                <span class="fleet-seat">8 Kursi</span>
-              </div>
-              <p>Pilihan premium untuk perjalanan bisnis dan keluarga dengan kenyamanan dan keamanan tinggi.</p>
-              <div class="fleet-specs">
-                <span><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M8 5v3l2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg> AC Dual Zone</span>
-                <span><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><rect x="2" y="3" width="12" height="10" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M5 7h6M5 10h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> Multimedia</span>
-                <span><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 2L2 5v4c0 3 2.5 5 6 6 3.5-1 6-3 6-6V5L8 2Z" stroke="currentColor" stroke-width="1.5" fill="none"/></svg> Full Asuransi</span>
-              </div>
-              <a href="https://wa.me/6281234567890" class="btn btn-gold btn-sm" target="_blank">Pesan Unit Ini</a>
-            </div>
-          </div>
-
-          <div class="fleet-card reveal">
-            <div class="fleet-img-wrap">
-              <img src="images/hiace.jpg" alt="Toyota HiAce / ELF" loading="lazy" />
-              <span class="fleet-badge badge-green">Rombongan</span>
-            </div>
-            <div class="fleet-info">
-              <div class="fleet-top">
-                <h3>Toyota HiAce / ELF</h3>
-                <span class="fleet-seat">12–16 Kursi</span>
-              </div>
-              <p>Solusi terbaik untuk rombongan besar, wisata grup, dan travel antar kota jarak jauh.</p>
-              <div class="fleet-specs">
-                <span><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M8 5v3l2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg> AC Powerful</span>
-                <span><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><rect x="2" y="3" width="12" height="10" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M5 7h6M5 10h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> Reclining Seat</span>
-                <span><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 2L2 5v4c0 3 2.5 5 6 6 3.5-1 6-3 6-6V5L8 2Z" stroke="currentColor" stroke-width="1.5" fill="none"/></svg> Asuransi</span>
-              </div>
-              <a href="https://wa.me/6282115224743" class="btn btn-gold btn-sm" target="_blank">Pesan Unit Ini</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT / WHY US -->
-    <section class="section" id="about">
-      <div class="container">
-        <div class="about-layout">
-          <div class="about-left reveal">
-            <span class="eyebrow">Mengapa Kami</span>
-            <h2>Kepercayaan Anda adalah prioritas utama kami</h2>
-            <p>Selama lebih dari 10 tahun, Agung's Travel & Tour telah melayani ribuan pelanggan dengan standar layanan terbaik di industri transportasi Indonesia.</p>
-            <div class="feature-list">
-              <div class="feature-item">
-                <div class="feature-check">✓</div>
-                <div>
-                  <strong>Armada Terawat & Bersih</strong>
-                  <p>Setiap unit diperiksa rutin dan dibersihkan sebelum digunakan.</p>
-                </div>
-              </div>
-              <div class="feature-item">
-                <div class="feature-check">✓</div>
-                <div>
-                  <strong>Sopir Profesional & Ramah</strong>
-                  <p>Sopir berpengalaman, hafal rute, dan siap melayani 24 jam.</p>
-                </div>
-              </div>
-              <div class="feature-item">
-                <div class="feature-check">✓</div>
-                <div>
-                  <strong>Harga Transparan</strong>
-                  <p>Tidak ada biaya tersembunyi. Harga disepakati di awal perjalanan.</p>
-                </div>
-              </div>
-              <div class="feature-item">
-                <div class="feature-check">✓</div>
-                <div>
-                  <strong>Selalu Tepat Waktu</strong>
-                  <p>Kami menghargai waktu Anda. Penjemputan selalu tepat jadwal.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="about-right reveal">
-            <div class="stats-grid">
-              <div class="stat-card">
-                <span class="stat-num" data-count="10">0</span><span class="stat-plus">+</span>
-                <p>Tahun Pengalaman</p>
-              </div>
-              <div class="stat-card">
-                <span class="stat-num" data-count="50">0</span><span class="stat-plus">+</span>
-                <p>Unit Armada</p>
-              </div>
-              <div class="stat-card stat-gold">
-                <span class="stat-num" data-count="5000">0</span><span class="stat-plus">+</span>
-                <p>Pelanggan Puas</p>
-              </div>
-              <div class="stat-card">
-                <span class="stat-num">24</span><span class="stat-plus">/7</span>
-                <p>Siap Melayani</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- TESTIMONIALS -->
-    <section class="section section-dark" id="testimonials">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">Testimoni</span>
-          <h2>Apa kata pelanggan kami</h2>
-        </div>
-        <div class="testi-grid">
-          <div class="testi-card reveal">
-            <div class="stars">★★★★★</div>
-            <p>"Pelayanan sangat memuaskan! Sopir ramah dan tepat waktu. Mobilnya bersih dan nyaman. Pasti akan pesan lagi untuk perjalanan berikutnya."</p>
-            <div class="testi-author">
-              <div class="testi-avatar">BW</div>
-              <div>
-                <strong>Budi Wicaksono</strong>
-                <span>Pelanggan Rental Harian</span>
-              </div>
-            </div>
-          </div>
-          <div class="testi-card reveal">
-            <div class="stars">★★★★★</div>
-            <p>"Sudah beberapa kali pakai jasa Agung's Travel untuk antar jemput bandara. Selalu on time dan tidak pernah mengecewakan!"</p>
-            <div class="testi-author">
-              <div class="testi-avatar">SR</div>
-              <div>
-                <strong>Sari Rahayu</strong>
-                <span>Pelanggan Airport Transfer</span>
-              </div>
-            </div>
-          </div>
-          <div class="testi-card reveal">
-            <div class="stars">★★★★★</div>
-            <p>"Kami sewa HiAce untuk wisata keluarga besar. Sopirnya sabar dan mobilnya sangat nyaman. Harga juga sangat reasonable!"</p>
-            <div class="testi-author">
-              <div class="testi-avatar">FH</div>
-              <div>
-                <strong>Fadli Hermawan</strong>
-                <span>Pelanggan Paket Wisata</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section contact-section" id="contact">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">Hubungi Kami</span>
-          <h2>Booking & Informasi</h2>
-        </div>
-        <div class="contact-layout">
-
-          <div class="contact-info reveal">
-            <div class="contact-item">
-              <div class="contact-icon">📞</div>
-              <div>
-                <strong>Telepon / WhatsApp</strong>
-                <a href="tel:+6281234567890">0812-3456-7890</a>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">✉️</div>
-              <div>
-                <strong>Email</strong>
-                <a href="mailto:info@agungstravel.com">info@agungstravel.com</a>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">📍</div>
-              <div>
-                <strong>Alamat Kantor</strong>
-                <span>Jl. Contoh No. 123, Kota Anda</span>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">🕐</div>
-              <div>
-                <strong>Jam Operasional</strong>
-                <span>Setiap hari, 24 Jam</span>
-              </div>
-            </div>
-            <a href="https://wa.me/6281234567890" class="btn btn-gold wa-big-btn" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-              </svg>
-              Chat WhatsApp Sekarang
+              <h3>Paket Wisata</h3>
+              <p>
+                Nikmati paket wisata lokal maupun regional dengan armada lengkap
+                dan pemandu berpengalaman.
+              </p>
+              <span class="service-link">Lihat Detail →</span>
             </a>
           </div>
+        </div>
+      </section>
 
-          <form class="contact-form reveal" id="contactForm" novalidate>
-            <h3>Kirim Pesan</h3>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="name">Nama Lengkap</label>
-                <input type="text" id="name" name="name" placeholder="Nama Anda" required />
+      <!-- FLEET -->
+      <section class="section section-dark" id="fleet">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow">Armada Unggulan</span>
+            <h2>Kendaraan terbaik untuk<br />setiap perjalanan</h2>
+          </div>
+          <div class="fleet-grid" aria-label="Kategori armada">
+            <a
+              class="fleet-card category-fleet-card reveal"
+              href="daftar-unit.html?kategori=minibus"
+              data-category="minibus">
+              <div class="fleet-img-wrap">
+                <img
+                  src="images/Avanza:Xenia.jpeg"
+                  alt="Kategori Minibus"
+                  loading="lazy" />
+                <span class="fleet-badge badge-gold">Paling Populer</span>
+              </div>
+              <div class="fleet-info">
+                <div class="fleet-top">
+                  <h3>Minibus</h3>
+                  <span class="fleet-seat">21 Pilihan</span>
+                </div>
+                <p>
+                  City car, MPV, SUV, hingga premium untuk keluarga, dinas,
+                  wisata, dan perjalanan pribadi.
+                </p>
+                <div class="fleet-specs">
+                  <span>City Car</span>
+                  <span>MPV</span>
+                  <span>SUV Premium</span>
+                </div>
+                <span class="btn btn-gold btn-sm">Lihat Daftar Unit</span>
+              </div>
+            </a>
+
+            <a
+              class="fleet-card category-fleet-card reveal"
+              href="daftar-unit.html?kategori=barang"
+              data-category="barang">
+              <div class="fleet-img-wrap">
+                <img
+                  src="images/grand-max-blindvan.jpeg"
+                  alt="Kategori Barang"
+                  loading="lazy" />
+                <span class="fleet-badge badge-blue">Angkut Barang</span>
+              </div>
+              <div class="fleet-info">
+                <div class="fleet-top">
+                  <h3>Barang</h3>
+                  <span class="fleet-seat">3 Pilihan</span>
+                </div>
+                <p>
+                  Armada blind van, pick up bak, dan box untuk kebutuhan usaha,
+                  logistik, dan pindahan ringan.
+                </p>
+                <div class="fleet-specs">
+                  <span>Blind Van</span>
+                  <span>Pick Up Bak</span>
+                  <span>Box</span>
+                </div>
+                <span class="btn btn-gold btn-sm">Lihat Daftar Unit</span>
+              </div>
+            </a>
+
+            <a
+              class="fleet-card category-fleet-card reveal"
+              href="daftar-unit.html?kategori=hiace"
+              data-category="hiace">
+              <div class="fleet-img-wrap">
+                <img
+                  src="images/Hiace-Commuter-all-in.jpeg"
+                  alt="Kategori HiAce"
+                  loading="lazy" />
+                <span class="fleet-badge badge-green">Rombongan</span>
+              </div>
+              <div class="fleet-info">
+                <div class="fleet-top">
+                  <h3>HiAce</h3>
+                  <span class="fleet-seat">10-14 Kursi</span>
+                </div>
+                <p>
+                  Pilihan Commuter, Premio, dan Premio Luxury untuk rombongan
+                  kecil sampai menengah.
+                </p>
+                <div class="fleet-specs">
+                  <span>Commuter</span>
+                  <span>Premio</span>
+                  <span>All In Kota</span>
+                </div>
+                <<<<<<< HEAD
+                <a
+                  href="https://wa.me/6282115224743"
+                  class="btn btn-gold btn-sm"
+                  target="_blank"
+                  >Pesan Unit Ini</a
+                >
+                =======
+                <span class="btn btn-gold btn-sm">Lihat Daftar Unit</span>
+                >>>>>>> 8dc7f5b (Update SEO domain)
+              </div>
+            </a>
+
+            <a
+              class="fleet-card category-fleet-card reveal"
+              href="daftar-unit.html?kategori=elf"
+              data-category="elf">
+              <div class="fleet-img-wrap">
+                <img
+                  src="images/Elf-Long-all-in.jpeg"
+                  alt="Kategori ELF Long"
+                  loading="lazy" />
+                <span class="fleet-badge badge-green">Rombongan</span>
+              </div>
+              <div class="fleet-info">
+                <div class="fleet-top">
+                  <h3>ELF Long</h3>
+                  <span class="fleet-seat">19 Kursi</span>
+                </div>
+                <p>
+                  ELF Long Euro 4 untuk rombongan wisata, acara keluarga,
+                  kunjungan kantor, dan perjalanan grup.
+                </p>
+                <div class="fleet-specs">
+                  <span>Euro 4</span>
+                  <span>19 Kursi</span>
+                  <span>All In Kota</span>
+                </div>
+                <span class="btn btn-gold btn-sm">Lihat Daftar Unit</span>
+              </div>
+            </a>
+
+            <a
+              class="fleet-card category-fleet-card reveal"
+              href="daftar-unit.html?kategori=mediumBus"
+              data-category="mediumBus">
+              <div class="fleet-img-wrap">
+                <img
+                  src="images/bus/medium-bus.jpeg"
+                  alt="Kategori Medium Bus"
+                  loading="lazy" />
+                <span class="fleet-badge badge-blue">Medium Bus</span>
+              </div>
+              <div class="fleet-info">
+                <div class="fleet-top">
+                  <h3>Medium Bus</h3>
+                  <span class="fleet-seat">20 / 39 Kursi</span>
+                </div>
+                <p>
+                  Bus ukuran sedang untuk rombongan wisata, sekolah, kantor, dan
+                  acara keluarga.
+                </p>
+                <div class="fleet-specs">
+                  <span>JB3</span>
+                  <span>JB5</span>
+                  <span>1 Foto</span>
+                </div>
+                <span class="btn btn-gold btn-sm">Lihat Daftar Unit</span>
+              </div>
+            </a>
+
+            <a
+              class="fleet-card category-fleet-card reveal"
+              href="daftar-unit.html?kategori=bigBus"
+              data-category="bigBus">
+              <div class="fleet-img-wrap">
+                <img
+                  src="images/bus/big-bus.jpeg"
+                  alt="Kategori Big Bus"
+                  loading="lazy" />
+                <span class="fleet-badge badge-gold">Big Bus</span>
+              </div>
+              <div class="fleet-info">
+                <div class="fleet-top">
+                  <h3>Big Bus</h3>
+                  <span class="fleet-seat">40-59 Kursi</span>
+                </div>
+                <p>
+                  Bus besar untuk rombongan kapasitas besar dengan pilihan seat
+                  lengkap dan kabin nyaman.
+                </p>
+                <div class="fleet-specs">
+                  <span>JB3</span>
+                  <span>JB5</span>
+                  <span>6 Foto</span>
+                </div>
+                <span class="btn btn-gold btn-sm">Lihat Daftar Unit</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT / WHY US -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="about-layout">
+            <div class="about-left reveal">
+              <span class="eyebrow">Mengapa Kami</span>
+              <h2>Kepercayaan Anda adalah prioritas utama kami</h2>
+              <p>
+                Selama lebih dari 10 tahun, Agung's Travel & Tour telah melayani
+                ribuan pelanggan dengan standar layanan terbaik di industri
+                transportasi Indonesia.
+              </p>
+              <div class="feature-list">
+                <div class="feature-item">
+                  <div class="feature-check">✓</div>
+                  <div>
+                    <strong>Armada Terawat & Bersih</strong>
+                    <p>
+                      Setiap unit diperiksa rutin dan dibersihkan sebelum
+                      digunakan.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-check">✓</div>
+                  <div>
+                    <strong>Sopir Profesional & Ramah</strong>
+                    <p>
+                      Sopir berpengalaman, hafal rute, dan siap melayani 24 jam.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-check">✓</div>
+                  <div>
+                    <strong>Harga Transparan</strong>
+                    <p>
+                      Tidak ada biaya tersembunyi. Harga disepakati di awal
+                      perjalanan.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-check">✓</div>
+                  <div>
+                    <strong>Selalu Tepat Waktu</strong>
+                    <p>
+                      Kami menghargai waktu Anda. Penjemputan selalu tepat
+                      jadwal.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-right reveal">
+              <div class="stats-grid">
+                <div class="stat-card">
+                  <span class="stat-num" data-count="10">0</span
+                  ><span class="stat-plus">+</span>
+                  <p>Tahun Pengalaman</p>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-num" data-count="50">0</span
+                  ><span class="stat-plus">+</span>
+                  <p>Unit Armada</p>
+                </div>
+                <div class="stat-card stat-gold">
+                  <span class="stat-num" data-count="5000">0</span
+                  ><span class="stat-plus">+</span>
+                  <p>Pelanggan Puas</p>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-num">24</span
+                  ><span class="stat-plus">/7</span>
+                  <p>Siap Melayani</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section section-dark" id="testimonials">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow">Testimoni</span>
+            <h2>Apa kata pelanggan kami</h2>
+          </div>
+          <div class="testi-grid">
+            <div class="testi-card reveal">
+              <div class="stars">★★★★★</div>
+              <p>
+                "Pelayanan sangat memuaskan! Sopir ramah dan tepat waktu.
+                Mobilnya bersih dan nyaman. Pasti akan pesan lagi untuk
+                perjalanan berikutnya."
+              </p>
+              <div class="testi-author">
+                <div class="testi-avatar">BW</div>
+                <div>
+                  <strong>Budi Wicaksono</strong>
+                  <span>Pelanggan Rental Harian</span>
+                </div>
+              </div>
+            </div>
+            <div class="testi-card reveal">
+              <div class="stars">★★★★★</div>
+              <p>
+                "Sudah beberapa kali pakai jasa Agung's Travel untuk antar
+                jemput bandara. Selalu on time dan tidak pernah mengecewakan!"
+              </p>
+              <div class="testi-author">
+                <div class="testi-avatar">SR</div>
+                <div>
+                  <strong>Sari Rahayu</strong>
+                  <span>Pelanggan Airport Transfer</span>
+                </div>
+              </div>
+            </div>
+            <div class="testi-card reveal">
+              <div class="stars">★★★★★</div>
+              <p>
+                "Kami sewa HiAce untuk wisata keluarga besar. Sopirnya sabar dan
+                mobilnya sangat nyaman. Harga juga sangat reasonable!"
+              </p>
+              <div class="testi-author">
+                <div class="testi-avatar">FH</div>
+                <div>
+                  <strong>Fadli Hermawan</strong>
+                  <span>Pelanggan Paket Wisata</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow">Hubungi Kami</span>
+            <h2>Booking & Informasi</h2>
+          </div>
+          <div class="contact-layout">
+            <div class="contact-info reveal">
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div>
+                  <strong>Telepon / WhatsApp</strong>
+                  <a href="tel:+6282115224743">082115224743</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:info@agungstravel.com"
+                    >info@agungstravel.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                  <strong>Alamat Kantor</strong>
+                  <span>Jl. Contoh No. 123, Kota Anda</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🕐</div>
+                <div>
+                  <strong>Jam Operasional</strong>
+                  <span>Setiap hari, 24 Jam</span>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/6282115224743"
+                class="btn btn-gold wa-big-btn"
+                target="_blank"
+                rel="noopener">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="20"
+                  height="20">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                </svg>
+                Chat WhatsApp Sekarang
+              </a>
+            </div>
+
+            <form class="contact-form reveal" id="contactForm" novalidate>
+              <h3>Kirim Pesan</h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Nama Lengkap</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Nama Anda"
+                    required />
+                </div>
+                <div class="form-group">
+                  <label for="phone">No. WhatsApp</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="08xx-xxxx-xxxx" />
+                </div>
               </div>
               <div class="form-group">
-                <label for="phone">No. WhatsApp</label>
-                <input type="tel" id="phone" name="phone" placeholder="08xx-xxxx-xxxx" />
+                <label for="service">Layanan yang Diinginkan</label>
+                <select id="service" name="service">
+                  <option value="">Pilih layanan</option>
+                  <option>Rental Harian</option>
+                  <option>Travel Antar Kota</option>
+                  <option>Antar Jemput Bandara</option>
+                  <option>Antar Jemput Stasiun</option>
+                  <option>Paket Wisata</option>
+                </select>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="service">Layanan yang Diinginkan</label>
-              <select id="service" name="service">
-                <option value="">Pilih layanan</option>
-                <option>Rental Harian</option>
-                <option>Travel Antar Kota</option>
-                <option>Antar Jemput Bandara</option>
-                <option>Paket Wisata</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="message">Pesan</label>
-              <textarea id="message" name="message" rows="4" placeholder="Ceritakan kebutuhan perjalanan Anda..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-gold">Kirim Pesan</button>
-            <p class="form-note" id="formNote"></p>
-          </form>
+              <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Ceritakan kebutuhan perjalanan Anda..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-gold">Kirim Pesan</button>
+              <p class="form-note" id="formNote"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img
+            src="logo.jpeg"
+            alt="Agung's Travel & Tour"
+            class="footer-logo" />
+          <div>
+            <strong>Agung's Travel & Tour</strong>
+            <p>Jasa Penyewaan Mobil & Travel Profesional</p>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <div class="footer-col">
+            <h4>Layanan</h4>
+            <a href="detail-layanan.html?layanan=rental-harian"
+              >Rental Harian</a
+            >
+            <a href="detail-layanan.html?layanan=travel-antar-kota"
+              >Travel Antar Kota</a
+            >
+            <a href="detail-layanan.html?layanan=antar-jemput-bandara"
+              >Antar Jemput Bandara</a
+            >
+            <a href="detail-layanan.html?layanan=antar-jemput-stasiun"
+              >Antar Jemput Stasiun</a
+            >
+            <a href="detail-layanan.html?layanan=paket-wisata">Paket Wisata</a>
+          </div>
+          <div class="footer-col">
+            <h4>Perusahaan</h4>
+            <a href="#about">Tentang Kami</a>
+            <a href="#fleet">Armada</a>
+            <a href="#testimonials">Testimoni</a>
+            <a href="#contact">Kontak</a>
+          </div>
+          <div class="footer-col">
+            <h4>Hubungi Kami</h4>
+            <a href="tel:+6282115224743">0821-1522-4743</a>
+            <a href="mailto:info@agungstravel.com">info@agungstravel.com</a>
+            <a href="https://wa.me/6282115224743" target="_blank"
+              >Chat WhatsApp</a
+            >
+          </div>
         </div>
       </div>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="logo.jpeg" alt="Agung's Travel & Tour" class="footer-logo" />
-        <div>
-          <strong>Agung's Travel & Tour</strong>
-          <p>Jasa Penyewaan Mobil & Travel Profesional</p>
-        </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Agung's Travel & Tour. Semua hak dilindungi.</p>
       </div>
-      <div class="footer-nav">
-        <div class="footer-col">
-          <h4>Layanan</h4>
-          <a href="#services">Rental Harian</a>
-          <a href="#services">Travel Antar Kota</a>
-          <a href="#services">Airport Transfer</a>
-          <a href="#services">Paket Wisata</a>
-        </div>
-        <div class="footer-col">
-          <h4>Perusahaan</h4>
-          <a href="#about">Tentang Kami</a>
-          <a href="#fleet">Armada</a>
-          <a href="#testimonials">Testimoni</a>
-          <a href="#contact">Kontak</a>
-        </div>
-        <div class="footer-col">
-          <h4>Hubungi Kami</h4>
-          <a href="tel:+6282115224743">0821-1522-4743</a>
-          <a href="mailto:info@agungstravel.com">info@agungstravel.com</a>
-          <a href="https://wa.me/6282115224743" target="_blank">Chat WhatsApp</a>
-        </div>
-      </div>
-    </div>
-    <div class="container footer-bottom">
-      <p>&copy; 2026 Agung's Travel & Tour. Semua hak dilindungi.</p>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
