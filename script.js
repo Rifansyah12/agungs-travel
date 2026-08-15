@@ -70,7 +70,7 @@ document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(
 
 // -- Fleet catalog --
 const whatsAppNumber = '6282115224743';
-const siteBaseUrl = 'https://agungs-travel-p4ugqczvc-rifansyah12s-projects.vercel.app';
+const siteBaseUrl = 'https://agungs-travel.vercel.app';
 const metaDescription = document.querySelector('meta[name="description"]');
 const canonicalLink = document.querySelector('link[rel="canonical"]');
 const ogTitle = document.querySelector('meta[property="og:title"]');

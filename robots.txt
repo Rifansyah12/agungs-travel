@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://agungs-travel-p4ugqczvc-rifansyah12s-projects.vercel.app/sitemap.xml
+Sitemap: https://agungs-travel.vercel.app/sitemap.xml
