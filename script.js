@@ -196,7 +196,7 @@ const vehicleCatalog = {
       { brand: 'Toyota', name: 'Rush', type: 'SUV', price: 'Rp500.000/hari', image: 'images/Rush.jpeg' },
       { brand: 'Honda', name: 'BR-V', type: 'SUV 7 Kursi', price: 'Rp500.000/hari', image: 'images/BRV.jpeg' },
       { brand: 'Mitsubishi', name: 'Xpander', type: 'MPV', price: 'Rp500.000/hari', image: 'images/Xpander.jpeg' },
-      { brand: 'Toyota', name: 'Innova Reborn', type: 'Premium MPV', price: 'Rp600.000/hari', image: 'images/Innova-Riborn.jpeg' },
+      { brand: 'Toyota', name: 'Innova Reborn', type: 'Premium MPV', price: 'Rp650.000/hari', image: 'images/Innova-Riborn.jpeg' },
       { brand: 'Toyota', name: 'Innova Zenix', type: 'Premium MPV', price: 'Rp1.000.000/hari', image: 'images/Innova-Zenix.jpeg' },
       { brand: 'Mitsubishi', name: 'Pajero Sport / Dakar', type: 'SUV Premium', price: 'Rp1.400.000/hari', image: 'images/%E2%81%A0Pajero-Sport:Dakar%20.jpeg' },
       { brand: 'Toyota', name: 'Fortuner GR', type: 'SUV Premium', price: 'Rp1.400.000/hari', image: 'images/Fortuner-GR-tahun.jpeg' },
@@ -221,7 +221,7 @@ const vehicleCatalog = {
     title: 'HiAce',
     description: 'Pilihan HiAce untuk rombongan kecil sampai menengah. Harga yang tertera sudah all in dalam kota.',
     units: [
-      { brand: 'Toyota', name: 'HiAce Commuter Euro 4', type: '14 Kursi', price: 'Rp1.400.000/hari', note: 'All in dalam kota', image: 'images/Hiace-Commuter-all-in.jpeg' },
+      { brand: 'Toyota', name: 'HiAce Commuter Euro 4', type: '14 Kursi', price: 'Rp1.500.000/hari', note: 'All in dalam kota', image: 'images/Hiace-Commuter-all-in.jpeg' },
       { brand: 'Toyota', name: 'HiAce Premio', type: '14 Kursi', price: 'Rp1.800.000/hari', note: 'All in dalam kota', image: 'images/Hiace-Premio-All-in.jpeg' },
       { brand: 'Toyota', name: 'HiAce Premio Luxury', type: '10 Kursi', price: 'Rp2.500.000/hari', note: 'All in dalam kota', image: 'images/Hiace-Premio-luxury-All-in.jpeg' }
     ]
